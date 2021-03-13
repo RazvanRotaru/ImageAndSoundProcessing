@@ -3,7 +3,9 @@
   * Pass a inputfile as an argument
   * Specify "-v" or "--verbose" if you want to print a detailed tree structure
 
-## Details:
+
+
+## Implementation details:
   * A DataContainer is firt initialized from the file
   * A EvenlySplitter visitor creates a BST of Nodes from the input data
   * A Print visitor may pass the BST to print its contents
