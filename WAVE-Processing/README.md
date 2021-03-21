@@ -1,11 +1,11 @@
 ## Usage:
   * Makefile rules allow you to either:
-      * Parse and export a file data: **make extract file=#FILENAME**
-      * Compare the exported data to an Audacity export (*save Audacity export in /ref*) **make compare_extracted**
-      * Create a mono wav file of a given duration at a frequency of 400Hz sampled at 8000Hz with a word-length of 16 bits **make create duration=#DURATION_IN_SEC**
-      * Encode a given wav file using the muLaw function **make encode file=#FILENAME**
-      * Decode a given wav file using the inverse muLaw function **make decode file=#FILENAME**
-      * Plot the histogram of a given wav file **make histogram file=#FILENAME** 
+      * Parse and export a file data - **make extract file=#FILENAME**
+      * Compare the exported data to an Audacity export (*save Audacity export in /ref*) - **make compare_extracted**
+      * Create a mono wav file of a given duration at a frequency of 400Hz sampled at 8000Hz with a word-length of 16 bits - **make create duration=#DURATION_IN_SEC**
+      * Encode a given wav file using the muLaw function - **make encode file=#FILENAME**
+      * Decode a given wav file using the inverse muLaw function - **make decode file=#FILENAME**
+      * Plot the histogram of a given wav file - **make histogram file=#FILENAME** 
 
 
 ## Output:
