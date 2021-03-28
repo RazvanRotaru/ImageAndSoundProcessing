@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 
     int duration;
     if (argc <= 1) {
-        cout << "Input sampling frequency:" << endl;
+        cout << "Input signal duration:" << endl;
         cin >> duration;
     }
     else
